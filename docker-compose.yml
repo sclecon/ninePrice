@@ -1,0 +1,11 @@
+version: "3"
+services:
+  suapp:
+    build: src
+    container_name: nine
+    ports:
+      - "6000:9501"
+    restart: always
+    volumes:
+      - "./src:/opt/www"
+    entrypoint: "top"
