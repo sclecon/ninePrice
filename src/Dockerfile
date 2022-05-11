@@ -1,4 +1,4 @@
-FROM hyperf/hyperf:8.1-alpine-v3.15-swoole
+FROM hyperf/hyperf:7.4-alpine-v3.15-swoole
 MAINTAINER sclecon <27941662@qq.com>
 WORKDIR /opt/www
 
